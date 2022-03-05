@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './assets/main.css'
 import App from './App'
+import './index.css'
 import Maintenance from './Maintenance'
 
 ReactDOM.render(
