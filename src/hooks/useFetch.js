@@ -41,6 +41,7 @@ const useFetch = (query, pageNum) => {
     }, 500)
 
     return () => clearTimeout(timer)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query, pageNum])
 
   return { loading, error, images, hasMore }
