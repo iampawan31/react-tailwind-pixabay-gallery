@@ -1,7 +1,7 @@
 import React from 'react'
 
 function ImageCard({ image }) {
-  const tags = image.tags.split(',')
+  // const tags = image?.tags.split(',')
   return (
     <div>
       <div className="rounded overflow-hidden shadow-lg relative group">
@@ -27,7 +27,7 @@ function ImageCard({ image }) {
               </li>
             </ul> */}
           </div>
-          <div>
+          {/* <div>
             {tags.map((tag, index) => {
               return (
                 <span
@@ -38,7 +38,7 @@ function ImageCard({ image }) {
                 </span>
               )
             })}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
